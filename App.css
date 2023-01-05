@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.heading{
+  text-align:left;
+  margin-left:-150px;
+}
+p{
+  color:#7C7C8D;
+
+}
+.auth-form-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:10px;
+  border: 1px solid #F4F5F6;
+
+}
+.line{
+  margin-top:13px;
+  margin-left:5px;  margin-right:5px;
+  width: 170px;
+  height: 1px;
+  background: #E6E8EC;
+}
+.separate{
+  margin-bottom:20px;
+  display: flex;
+  flex-direction: row;
+  margin-top:30px;
+}
+.icons{
+  margin-top:1rem;
+  display: flex;
+  flex-direction: row;
+}
+.facebook{
+  display:flex;
+  flex-direction: row;
+  margin-left:1rem;
+  background: #4776D0;
+  border-radius: 8px;padding:5px;justify-content: center;border: 1px solid #E6E8EC;
+  align-items: center;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+.google{
+  display:flex;
+  flex-direction: row;
+  margin-left:5rem;
+  background-color:white; border:none;
+  padding:5px;
+  padding-left:1rem;
+  padding-right:1rem;
+  border: 1px solid #E6E8EC;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.fbsign{
+  margin-left:0.5rem;
+  color:white;
+}
+.gsign{
+  margin-left:0.5rem;
+  color:black;
+}
+.login-form{
+  box-shadow: 0px 10px 110px 1px rgba(59, 59, 59, 0.08);
+  border-radius: 10px;
+  padding:20px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius:10px;
+  border: 1px solid #F4F5F6;
+
+}
+
+.register{
+  background: none;
+  border:none;
+  color:#A162F7
+}
+.forgot{
+  background: none;
+  border:none;
+  color:#A162F7;
+  margin-left:5rem;
+}
+.remember{
+  font-size:15px;color: #B1B5C4;
+}
+input{
+  margin:0.5rem 0;
+  padding:0.8rem;
+  padding-right:8rem;
+  border-radius:5px;
+  border-width: 1px;
+}
+.input-field{
+  width: 300px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-right:5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+}
+
+.input-field input{
+  width: 100%;
+  border: hidden;
+  padding: 5px;  
+}
+.signin{
+  background-color:#A162F7;
+  border:none;
+  border-radius:10px;
+  padding:12px;
+  padding-left:9.5rem;
+  padding-right:9.5rem;
+  margin:0.5rem ;
+  color: #FFFAF7;
+}
+.check{
+  margin-right:0.5rem;
+}
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+
+}
+.divider{
+  display: flex;
+  flex-direction: row;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
